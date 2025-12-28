@@ -12,7 +12,7 @@ function Text() {
 
     if(!data) return null;
 
-    const {name , image , subtitle , descrption} = data;
+    const {name , image , subtitle , description} = data;
 
   return (
     <>
@@ -30,9 +30,9 @@ function Text() {
 
         {subtitle ? <h3 className="text-lg font-semibold">{subtitle}</h3> : null}
 
-        {Array.isArray(descrption) && descrption.length > 0 ? (
+        {Array.isArray(description) && description.length > 0 ? (
             <div className="space-y-3 leading-relaxed text-base text-gray-800">
-                {descrption.map((para , idx) => (
+                {description.map((para , idx) => (
                     <p key={idx}>{para}</p>
                 ))}
             </div>
