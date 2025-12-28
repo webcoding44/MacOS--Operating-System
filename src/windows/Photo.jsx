@@ -1,5 +1,5 @@
 import WindowWrapper from "../hoc/windowWrapper.jsx";
-import WindowsControl from "../components/windowsControl.jsx";
+import WindowsControl from "../components/WindowsControl.jsx";
 import { gallery, photosLinks } from "../constants/index.js";
 import usewindowStore from "../store/window.js";
 import { Mail, Search } from "lucide-react";

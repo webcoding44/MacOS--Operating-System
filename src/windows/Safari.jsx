@@ -1,6 +1,6 @@
 import { ChevronLeft, ChevronRight, Copy, MoveDownRight, PanelLeft, Plus, Search, Share, ShieldHalf } from "lucide-react";
 import WindowWrapper from "../hoc/windowWrapper.jsx"
-import  WindowsControl  from "../components/windowsControl.jsx";
+import  WindowsControl  from "../components/WindowsControl.jsx";
 import { blogPosts } from "../constants/index.js";
 
 
