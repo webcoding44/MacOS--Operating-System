@@ -1,9 +1,8 @@
-import {techStack} from '../constants/index.js'
-import usewindowStore from '../store/window.js';
-import WindowsControl from '../components/WindowsControl.jsx';
-import { Check, Flag } from 'lucide-react';
-import WindowWrapper from '../hoc/windowWrapper.jsx';
-
+import { techStack } from "../constants/index.js";
+import usewindowStore from "../store/window.js";
+import WindowsControl from "../components/windowsControl.jsx";
+import { Check, Flag } from "lucide-react";
+import WindowWrapper from "../hoc/windowWrapper.jsx";
 
 function Terminal() {
   const { windows } = usewindowStore();
@@ -25,7 +24,8 @@ function Terminal() {
       {/* Command Line */}
       <div className="mb-4">
         <p className="font-mono text-sm text-gray-800">
-          <span className="font-bold text-green-600">@Safiurahman %</span> show tech stack
+          <span className="font-bold text-green-600">@Safiurahman %</span> show
+          tech stack
         </p>
       </div>
 
@@ -38,7 +38,12 @@ function Terminal() {
       {/* Content */}
       <div className="space-y-3">
         {techStack.map(({ category, items }, index) => (
-          <div key={category} className={`flex items-start gap-4 py-2 ${index < techStack.length - 1 ? 'border-b border-dashed' : ''}`}>
+          <div
+            key={category}
+            className={`flex items-start gap-4 py-2 ${
+              index < techStack.length - 1 ? "border-b border-dashed" : ""
+            }`}
+          >
             {/* Check Icon */}
             <Check size={20} className="text-green-500 flex-shrink-0 mt-1" />
 
@@ -49,7 +54,8 @@ function Terminal() {
             <div className="flex flex-wrap gap-2 w-3/4">
               {items.map((item, i) => (
                 <span key={item} className="text-gray-800">
-                  {item}{i < items.length - 1 ? ',' : ''}
+                  {item}
+                  {i < items.length - 1 ? "," : ""}
                 </span>
               ))}
             </div>
@@ -72,7 +78,6 @@ function Terminal() {
   );
 }
 
-const TerminalWindow = WindowWrapper(Terminal , "terminal")
+const TerminalWindow = WindowWrapper(Terminal, "terminal");
 
 export default TerminalWindow;
-

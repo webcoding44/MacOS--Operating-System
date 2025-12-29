@@ -1,5 +1,5 @@
 import WindowWrapper from "../hoc/windowWrapper.jsx";
-import WindowsControl from "../components/WindowsControl.jsx";
+import WindowsControl from "../components/windowsControl.jsx";
 import { gallery, photosLinks } from "../constants/index.js";
 import usewindowStore from "../store/window.js";
 import { Mail, Search } from "lucide-react";
@@ -22,7 +22,9 @@ function Photo() {
         {/* Sidebar - فهرست عکس‌ها */}
         <div className="sidebar w-64 p-4 bg-white border-r overflow-y-auto">
           <h2 className="text-sm font-medium text-gray-500 mb-3">Photos</h2>
-          <div className="flex flex-col gap-1"> {/* مهم: flex-col → زیر هم */}
+          <div className="flex flex-col gap-1">
+            {" "}
+            {/* مهم: flex-col → زیر هم */}
             {photosLinks.map(({ id, icon, title }) => (
               <div
                 key={id}

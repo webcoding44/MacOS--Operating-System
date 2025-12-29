@@ -1,5 +1,5 @@
 import { Search } from "lucide-react";
-import WindowsControl from "../components/WindowsControl.jsx";
+import WindowsControl from "../components/windowsControl.jsx";
 import WindowWrapper from "../hoc/windowWrapper.jsx";
 import UseLocationStore from "../store/location.js";
 import clsx from "clsx";
@@ -25,7 +25,9 @@ function Finder() {
       <h3 className="text-xs uppercase text-gray-500 font-medium tracking-wider mb-1">
         {name}
       </h3>
-      <div className="flex flex-col gap-1"> {/* مهم: flex-col یعنی زیر هم */}
+      <div className="flex flex-col gap-1">
+        {" "}
+        {/* مهم: flex-col یعنی زیر هم */}
         {items.map((item) => (
           <div
             key={item.id}
