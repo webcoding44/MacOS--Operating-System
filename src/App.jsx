@@ -5,6 +5,7 @@ import {Safari , Terminal ,  Resume , Finder , Text, Contact, Image, Photo } fro
 function App() {
 
 
+    console.log("Vercel deploy test");
 
   return (
     <>
@@ -24,7 +25,6 @@ function App() {
         <Contact />
         <Photo />
       </main>
- 
     </>
   )
 }
