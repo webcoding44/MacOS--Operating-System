@@ -1,9 +1,9 @@
-import Terminal from "./terminal.jsx";
-import Safari from "./safari.jsx"
-import Resume  from "./resume.jsx";
-import Finder from "./finder.jsx";
-import Text from "./text.jsx"
-import Image from "./image.jsx"
+import Terminal from "./Terminal.jsx";
+import Safari from "./Safari.jsx"
+import Resume  from "./Resume.jsx";
+import Finder from "./Finder.jsx";
+import Text from "./Text.jsx"
+import Image from "./Image.jsx"
 import Contact from "./contact.jsx";
-import Photo from "./photo.jsx";
+import Photo from "./Photo.jsx";
 export { Terminal , Safari , Resume , Finder , Text , Image , Contact , Photo };

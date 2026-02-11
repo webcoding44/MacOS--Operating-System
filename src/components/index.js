@@ -1,8 +1,8 @@
-import Navbar from "./navbar.jsx";
-import Welcome from "./welcome.jsx";
-import Dock from "./dock.jsx";
-import WindowsControl from "./windowsControl.jsx";
-import Home from "./home.jsx";
+import Navbar from "./Navbar.jsx";
+import Welcome from "./Welcome.jsx";
+import Dock from "./Dock.jsx";
+import WindowsControl from "./WindowsControl.jsx";
+import Home from "./Home.jsx";
 
 export {
     Navbar,

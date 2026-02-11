@@ -1,4 +1,4 @@
-import WindowsControl from "../components/windowsControl.jsx";
+import WindowsControl from "../components/WindowsControl.jsx";
 import WindowWrapper from "../hoc/windowWrapper.jsx";
 import { socials } from "../constants/index.js";
 

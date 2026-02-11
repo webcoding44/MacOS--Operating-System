@@ -1,6 +1,6 @@
 import usewindowStore from "../store/window.js";
 import WindowWrapper from "../hoc/windowWrapper.jsx";
-import WindowsControl from "../components/windowsControl.jsx";
+import WindowsControl from "../components/WindowsControl.jsx";
 
 function Image() {
   const { windows } = usewindowStore();

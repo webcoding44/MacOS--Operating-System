@@ -15,7 +15,6 @@ function App() {
         <Welcome />
         <Dock />
         <Home/>
-
         <Terminal/>
         <Safari />
         <Resume /> 

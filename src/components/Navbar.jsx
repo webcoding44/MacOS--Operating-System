@@ -5,10 +5,10 @@ import usewindowStore from "../store/window.js";
 
 
 function Navbar () {
-   const [currentTime, setCurrentTime] = useState('');
-
+  
   const { openWindow } = usewindowStore();
-
+  
+  const [currentTime, setCurrentTime] = useState('');
  useEffect(() => {
     const interval = setInterval(() => {
       setCurrentTime(dayjs().format("ddd MMM D h:mm A"));

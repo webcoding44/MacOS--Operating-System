@@ -1,6 +1,6 @@
 import { techStack } from "../constants/index.js";
 import usewindowStore from "../store/window.js";
-import WindowsControl from "../components/windowsControl.jsx";
+import WindowsControl from "../components/WindowsControl.jsx";
 import { Check, Flag } from "lucide-react";
 import WindowWrapper from "../hoc/windowWrapper.jsx";
 

@@ -10,7 +10,7 @@ import {
   ShieldHalf,
 } from "lucide-react";
 import WindowWrapper from "../hoc/windowWrapper.jsx";
-import WindowsControl from "../components/windowsControl.jsx";
+import WindowsControl from "../components/WindowsControl.jsx";
 import { blogPosts } from "../constants/index.js";
 
 function Safari() {
